@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import '../App.css'
+import "../App.css";
 import "@ant-design/v5-patch-for-react-19";
 import { Button, Input, Modal } from "antd";
 
@@ -102,7 +102,7 @@ const Crud = () => {
 
   return (
     <div className="ml-[5%] ">
-      <div className="flex justify-center gap-20 mr-[5%]">
+      <div className="flex justify-center gap-2 lg:gap-20 mr-[5%]">
         <select className="border border-gray-200 p-1 rounded hover:border-blue-400 outline-none">
           <option value="">All</option>
           <option value="active">Active</option>
@@ -122,7 +122,7 @@ const Crud = () => {
         {data.map((e) => (
           <div
             key={e.id}
-            className="w-[23%] basis-auto grow-0 shrink-0 text-[#A0A0A0] relative"
+            className="lg:w-[23%] basis-auto grow-0 shrink-0 text-[#A0A0A0] relative"
           >
             <span
               className={`absolute m-2.5 px-2.5 rounded ${
@@ -133,13 +133,25 @@ const Crud = () => {
             >
               {e.status ? "Active" : "Inactive"}
             </span>
-            <div className="w-[296px] h-[414px] flex justify-center items-center">
-              <img src={e.img} alt="" />
+            <div className=" w-[296px] h-[414px] flex justify-center items-center">
+              {e.img ? (
+                <img src={e.img} alt="" />
+              ) : (
+                <p className="pt-5 text-[24px] text-red-500 font-bold">No Image</p>
+              )}
             </div>
             <div className="flex justify-between items-center">
               <div>
-                <p className="pt-5 text-[13px]">{e.name}</p>
-                <p className=" py-2.5 text-[12px]">$ {e.sena}</p>
+                {e.name ? (
+                  <p className="pt-5 text-[13px]">{e.name}</p>
+                ) : (
+                  <p className="pt-5 text-[13px] text-red-500">No Name</p>
+                )}
+                {e.sena ? (
+                  <p className=" py-2.5 text-[12px]">$ {e.sena}</p>
+                ) : (
+                  <p className="pt-5 text-[13px] text-red-500">$</p>
+                )}
               </div>
 
               <button

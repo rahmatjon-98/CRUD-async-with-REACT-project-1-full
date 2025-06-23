@@ -123,7 +123,7 @@ function App() {
       </section>
 
       <section className="my-2.5 lg:my-10">
-        <div className="absolute text-center m-auto text-white inset-0 top-[730px] lg:top-[2330px] z-10">
+        <div className="absolute text-center m-auto text-white inset-0 top-[1360px] lg:top-[2330px] z-10">
           <p className="text-[24px] lg:text-[43px]">Home Office Inspiration</p>
           <p className="text-[15px] pb-1 lg:pb-5">
             Working from home can be a challenge—see some creative solutions to
