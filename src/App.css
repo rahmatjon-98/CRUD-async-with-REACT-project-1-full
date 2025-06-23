@@ -1,5 +1,10 @@
 a:hover {
     text-decoration: underline;
+    cursor: pointer;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 .scrollbar-hidden::-webkit-scrollbar {

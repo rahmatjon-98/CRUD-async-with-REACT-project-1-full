@@ -84,7 +84,7 @@ function App() {
           <p className="text-[15px] pb-1 lg:pb-5">
             Available in Walnut or Maple
           </p>
-          <a className="text-[13px]">LEARN MORE</a>
+          <a className="cursor-pointer text-[13px]">LEARN MORE</a>
         </div>
         <img src={img} alt="" />
       </section>
@@ -95,7 +95,7 @@ function App() {
           <p className="text-[15px]  pb-1 lg:pb-5">
             Build your dream workspace, so you can get your best work done.
           </p>
-          <a className="text-[13px]">GET STARTED</a>
+          <a className="cursor-pointer text-[13px]">GET STARTED</a>
         </div>
       </section>
 
@@ -103,12 +103,12 @@ function App() {
         <div className="w-[45%] text-center">
           <img src={img1} alt="" />
           <p className="pt-5 pb-2.5 text-[27px] font-semibold">Laptop Stands</p>
-          <a className="text-[13px]">LEARN MORE</a>
+          <a className="cursor-pointer text-[13px]">LEARN MORE</a>
         </div>
         <div className="w-[45%] text-center">
           <img src={img2} alt="" />
           <p className="pt-5 pb-2.5 text-[27px] font-semibold">Desk Pads</p>
-          <a className="text-[13px]">LEARN MORE</a>
+          <a className="cursor-pointer text-[13px]">LEARN MORE</a>
         </div>
       </section>
 
@@ -123,13 +123,13 @@ function App() {
       </section>
 
       <section className="my-2.5 lg:my-10">
-        <div className="absolute text-center m-auto text-white inset-0 top-[730px] lg:top-[2200px] z-10">
+        <div className="absolute text-center m-auto text-white inset-0 top-[730px] lg:top-[2330px] z-10">
           <p className="text-[24px] lg:text-[43px]">Home Office Inspiration</p>
           <p className="text-[15px] pb-1 lg:pb-5">
             Working from home can be a challenge—see some creative solutions to
             get it just right.
           </p>
-          <a className="text-[13px]">LEARN MORE</a>
+          <a className="cursor-pointer text-[13px]">LEARN MORE</a>
         </div>
         <img src={img3} alt="" />
       </section>
@@ -175,7 +175,7 @@ function App() {
           <p className=" text-[15px]  pb-5">
             Build your dream workspace, so you can get your best work done.
           </p>
-          <a className="text-[13px]">GET STARTED</a>
+          <a className="cursor-pointer text-[13px]">GET STARTED</a>
         </div>
       </section>
 
