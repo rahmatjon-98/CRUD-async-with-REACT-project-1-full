@@ -1,0 +1,67 @@
+{
+  "data": [
+    {
+      "name": "Walnut MagSafe Stand",
+      "sena": "120",
+      "img": "./image/Rectangle (29).png",
+      "status": true,
+      "id": "1"
+    },
+    {
+      "name": "Walnut Laptop Riser 22",
+      "sena": "150 22",
+      "img": "./image/Rectangle (30).png",
+      "status": false,
+      "id": "2"
+    },
+    {
+      "name": "Walnut iPad Stand",
+      "sena": "80",
+      "img": "./image/Rectangle (31).png",
+      "status": false,
+      "id": "3"
+    },
+    {
+      "name": "Walnut Monitor Stand",
+      "sena": "100",
+      "img": "./image/Rectangle (32).png",
+      "status": true,
+      "id": "4"
+    },
+    {
+      "name": "Walnut MagSafe Stand",
+      "sena": "120",
+      "img": "./image/Rectangle (29).png",
+      "status": true,
+      "id": "5"
+    },
+    {
+      "name": "Walnut Laptop Riser",
+      "sena": "150",
+      "img": "./image/Rectangle (30).png",
+      "status": true,
+      "id": "6"
+    },
+    {
+      "name": "Walnut iPad Stand",
+      "sena": "80",
+      "img": "./image/Rectangle (31).png",
+      "status": true,
+      "id": "7"
+    },
+    {
+      "name": "Walnut Monitor Stand",
+      "sena": "100",
+      "img": "./image/Rectangle (32).png",
+      "status": true,
+      "id": "8"
+    },
+    {
+      "name": "asda",
+      "sena": "asdaed",
+      "img": "https://media.istockphoto.com/id/479520746/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%BD%D0%BE%D1%83%D1%82%D0%B1%D1%83%D0%BA-%D1%81-%D0%BF%D1%83%D1%81%D1%82%D1%8B%D0%BC-%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%BE%D0%BC-%D0%BD%D0%B0-%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9.jpg?s=612x612&w=0&k=20&c=0z7qtGzc1Yin_luiWf5e61CoZSNzhJMrR4urT-Mn1mw=",
+      "status": false,
+      "id": "64e6"
+    }
+  ]
+}
